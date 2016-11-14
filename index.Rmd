@@ -36,8 +36,6 @@ Some notes on the first slide
 
 .fragment Review of Statistical Concepts (Regression, Covariance, Least Squares)
 
-.fragment R (Basic Operations)
-
 .fragment Sources of Genetic Variation (Additive, Dominance, Epistasis)
 
 .fragment Environment Variation
