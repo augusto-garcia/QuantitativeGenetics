@@ -34,7 +34,7 @@ Some notes on the first slide
 
 .fragment [Introduction](https://augusto-garcia.github.io/QuantGen-Intro/#/slide-1)
 
-.fragment Review of Statistical Concepts (Regression, Covariance, Least Squares)
+.fragment [Review of Statistical Concepts](https://augusto-garcia.github.io/QuantGen-Stat/#/slide-1)
 
 .fragment Sources of Genetic Variation (Additive, Dominance, Epistasis)
 
