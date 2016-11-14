@@ -38,7 +38,7 @@ Some notes on the first slide
 
 .fragment Sources of Genetic Variation (Additive, Dominance, Epistasis)
 
-.fragment Environment Variation
+.fragment Environmental Variation
 
 .fragment Resemblance Between Relatives
 
