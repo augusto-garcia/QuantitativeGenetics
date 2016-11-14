@@ -32,7 +32,7 @@ Some notes on the first slide
 
 ## Contents
 
-.fragment Introduction
+.fragment [Introduction](https://augusto-garcia.github.io/QuantGen-Intro/#/slide-1)
 
 .fragment Review of Statistical Concepts (Regression, Covariance, Least Squares)
 
