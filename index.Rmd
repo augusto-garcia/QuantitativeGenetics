@@ -36,7 +36,9 @@ Some notes on the first slide
 
 .fragment [Review of Statistical Concepts](https://augusto-garcia.github.io/QuantGen-Stat/#/slide-1)
 
-.fragment Sources of Genetic Variation (Additive, Dominance, Epistasis)
+.fragment [Sources of Genetic Variation I (Additive, Dominance)](https://augusto-garcia.github.io/QuantGen-GenVar/#/slide-1)
+
+.fragment Sources of Genetic Variation II (Epistasis)
 
 .fragment Environmental Variation
 
