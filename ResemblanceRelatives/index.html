@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quantitative Genetics</title>
+  <meta name="description" content="">
+  <meta name="author" content="Antonio Augusto F Garcia">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/amelia/bootstrap.min.css">
+<link rel="stylesheet" href="./frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/slidify-reveal.css">
+
+</head>
+<body>
+  
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h1>Quantitative Genetics</h1>
+  <h2>Resemblance Between Relatives</h2>
+
+<p><small>
+Instructor: <a href="http://about.me/augusto.garcia">A Augusto F Garcia</a>
+/ <a href="http://statgen.esalq.usp.br">Statistical Genetics Lab</a> </small></p>
+
+<p><small>Department of Genetics, Luiz de Queiroz College of Agriculture,
+University of São Paulo (Brazil)</small></p>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <aside class='notes'>
+    <p>Some notes on the first slide</p>
+
+  </aside>
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h1>Content</h1>
+  <h3>Extension of the Linear Model</h3>
+
+<h3>Special Environmental Effects</h3>
+
+<h3>Repeatability</h3>
+
+<h3>Genotype \(\times\) Environment Interaction</h3>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h1>Extension of the Linear Model</h1>
+  <ul>
+<li>Just like for the genetic term, environmental variance can also be
+partitioned</li>
+<li><strong>General environmental effects</strong>: factors that are shared by groups
+of individuals</li>
+<li><strong>Special environmental effects</strong>: residual deviations from the
+phenotype expected on the basis of genotype and general
+environmental effects</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>Linear Model</h2>
+  <p>\[z_{ijk} = G_i+I_{ij}+E_j+\epsilon_{ijk}\]</p>
+
+<ul>
+<li>\(I_{ij}\): residual deviation left after assuming that genotype and
+environmental values act in and additive fashion</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>Linear Model</h2>
+  <p>\[\sigma^2_P=\sigma^2_G+\sigma^2_I+2\sigma_{G,E}+\sigma^2_E+\sigma^2_{\epsilon}\]</p>
+
+<ul>
+<li>\(\sigma_{G,E}\): genotype-environment covariance</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h1>Special Environment Effects</h1>
+  <h3>Within-individual variation</h3>
+
+<ul>
+<li>For example, asymmetry (flowers, leaves, etc)</li>
+<li>Left-right side of animals</li>
+<li>Variation within and among individuals
+\[\sigma^2_{\epsilon}=\sigma^2_{ew}+\sigma^2_{ea}\]</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h1>Repeatibility</h1>
+  <ul>
+<li>Variance on repeated measures on the same individual can only be due
+to environmental causes</li>
+<li>Within-variance can provide some insights on the possible magnitude
+of variance for a trait</li>
+<li>An upper-bound estimate of the genetic variance of a trait is
+\[Var(G)_{max}=Var(z)-Var(ew)\]</li>
+<li>(\(Var(z)\) includes \(\sigma^2_{ea}\) and \(\sigma^2_E\))</li>
+<li><strong>Repeatability</strong> (an upper-bound to \(H^2\))
+\[r=\frac{Var(z)-Var(e_w)}{Var(z)-Var(e_m)}\]</li>
+<li>\(Var(e_m)\): variance associated with measurement error</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h1>Genotype \(\times\) Environment Interaction</h1>
+  <ul>
+<li>\(G \times E\) indicates that different genotypes respond to
+environmental change in different ways</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  
+  <p><img src="./images/GxE.jpg" alt=""></p>
+
+</section>
+<section class='' data-state='indigo' id='slide-10'>
+  <h1>Homework</h1>
+  <ul>
+<li>Read Chapter 6 of Lynch and Walsh Book</li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="./frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'night', 
+    transition: Reveal.getQueryHash().transition || 'linear', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="./widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
