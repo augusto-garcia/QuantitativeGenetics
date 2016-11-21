@@ -253,6 +253,21 @@ $$\phantom{AAAAAAAAAAAA}+2\Theta_{xy}\Delta_{xy}\sigma^2_{AD}+\Delta^2_{xy}\sigm
 
 ![](./images/Table7_2.png)
 
+---
+
+# The Heritability Concept
+
+- The ratio $\frac{\sigma^2_A}{\sigma^2_z}$ is known as the
+  **narrow-sense heritability**
+- This is an attempt to have a parameter that describes the genetic
+  resemblance between parents and offspring
+- But notice that the expression for genetic covariance between
+  relatives has the term $2\Theta_{xy}\sigma^2_A$
+- Thus, under the assumption that the additive genetic variance is the
+  most important source of phenotypic covariance:
+$$h^2\simeq\frac{Cov(z_x,z_y)}{2\Theta_{xy}Var(z)}$$
+- This is a good approximation to the heritability
+
 --- ds:indigo
 
 
