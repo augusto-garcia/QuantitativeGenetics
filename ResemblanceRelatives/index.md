@@ -85,7 +85,8 @@ $$\sigma_z(x,y)=\sigma_G(x,y)+\sigma_E(x,y)$$
 
 - The values for $\Delta$ depends on the relationship between $x$ and
   $y$
-- For example, if $x$ is non-inbred and $y$ is its non-inbred progeny,
+- For example, if $x$ is a non-inbred parent (mother or father) and
+  $y$ is its non-inbred progeny (parent-offspring relationship),
   $\Delta_8=1$ and all other $\Delta_i=0$
 
 ![](./images/delta8.png)
@@ -168,7 +169,7 @@ $$\Delta_{xy}=\Delta_1+\Delta_7$$
   - Diploid, autosomal loci
   - Random mating
   - No linkage disequilibrium
-  - No $G \times E$ and covariance $G-E$
+  - No $G \times E$ and no covariance $G,E$
 - Then, let us take two individuals in a
   population where all members have the same relationship
 
@@ -252,6 +253,8 @@ $$\phantom{AAAAAAAAAAAA}+2\Theta_{xy}\Delta_{xy}\sigma^2_{AD}+\Delta^2_{xy}\sigm
 ---
 
 ![](./images/Table7_2.png)
+- This can be used to estimate variance components based on
+  covariances
 
 ---
 
