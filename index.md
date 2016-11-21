@@ -38,11 +38,11 @@ Some notes on the first slide
 
 .fragment [Sources of Genetic Variation I (Additive, Dominance)](https://augusto-garcia.github.io/QuantGen-GenVar/#/slide-1)
 
-.fragment Sources of Genetic Variation II (Epistasis)
+.fragment [Sources of Genetic Variation II (Epistasis)](https://augusto-garcia.github.io/QuantGen-Multilocus/#/slide-1)
 
-.fragment Environmental Variation
+.fragment [Environmental Variation](https://augusto-garcia.github.io/QuantGen-Environment/#/slide-1)
 
-.fragment Resemblance Between Relatives
+.fragment [Resemblance Between Relatives](https://rawgit.com/augusto-garcia/QuantitGenetics/master/ResemblanceRelatives/index.html)
 
 .fragment QTL and Association Mapping, Genomic Selection
 
