@@ -44,5 +44,5 @@ Some notes on the first slide
 
 .fragment [Resemblance Between Relatives](https://rawgit.com/augusto-garcia/QuantitGenetics/master/ResemblanceRelatives/index.html)
 
-.fragment QTL and Association Mapping, Genomic Selection
+.fragment [QTL and Association Mapping, Genomic Selection](https://rawgit.com/augusto-garcia/QuantitGenetics/master/QTL_GWAS_GS/index.html)
 
