@@ -32,7 +32,8 @@ Some notes on the first slide
 
 ## Contents
 
-.fragment [Introduction](https://augusto-garcia.github.io/QuantGen-Intro/#/slide-1)
+.fragment
+[Introduction](https://rawgit.com/augusto-garcia/QuantitativeGenetics/master/Introduction/index.html)
 
 .fragment [Review of Statistical Concepts](https://augusto-garcia.github.io/QuantGen-Stat/#/slide-1)
 
