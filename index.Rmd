@@ -28,12 +28,14 @@ University of São Paulo (Brazil)</small>
 
 Some notes on the first slide
 
+Attention: do not change the addresses or links below; it was hard to
+configurate them 
+
 ---
 
 ## Contents
 
-.fragment
-[Introduction](https://rawgit.com/augusto-garcia/QuantitativeGenetics/master/Introduction/index.html)
+.fragment [Introduction](https://augusto-garcia.github.io/QuantGen-Intro/#/slide-1)
 
 .fragment [Review of Statistical Concepts](https://augusto-garcia.github.io/QuantGen-Stat/#/slide-1)
 
