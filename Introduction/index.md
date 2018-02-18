@@ -19,7 +19,7 @@ bootstrap:
 ## Introduction
 
 <small>
-Instructor: [A Augusto F Garcia](http://about.me/augusto.garcia)
+Instructor: [A Augusto F Garcia](http://augustogarcia.me)
 / [Statistical Genetics Lab](http://statgen.esalq.usp.br) </small>
 
 <small>Department of Genetics, Luiz de Queiroz College of Agriculture,
