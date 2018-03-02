@@ -45,7 +45,7 @@ configurate them
 
 .fragment [Environmental Variation](https://augusto-garcia.github.io/QuantGen-Environment/#/slide-1)
 
-.fragment [Resemblance Between Relatives](https://rawgit.com/augusto-garcia/QuantitGenetics/master/ResemblanceRelatives/index.html)
+.fragment [Resemblance Between Relatives](https://augusto-garcia.github.io/QuantGen-Resemblance/#/slide-1)
 
 .fragment [QTL and Association Mapping, Genomic Selection](https://rawgit.com/augusto-garcia/QuantitGenetics/master/QTL_GWAS_GS/index.html)
 
